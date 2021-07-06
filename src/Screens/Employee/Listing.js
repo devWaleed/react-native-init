@@ -3,8 +3,6 @@ import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { InputBlock, DropDown, Header } from "../../Components";
 import Icon from "react-native-vector-icons/FontAwesome5"
 
-
-
 const ListItem = (props) => {
     const data = [
         { id: "1", value: "source" },
@@ -30,6 +28,7 @@ const ListItem = (props) => {
         </TouchableOpacity>
     )
 }
+
 const Listing = (props) => {
 
     React.useEffect(() => {
