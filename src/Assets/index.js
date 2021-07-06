@@ -4,6 +4,7 @@ const Icons = {
 
 const Images = {
 	hamburgerIcon: require('./Images/icons8-menu-96.png'),
+	background: require("./Images/bg.jpg")
 }
 
 export {
