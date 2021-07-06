@@ -4,13 +4,14 @@ import DropDown from "./DropDown";
 import Header from "./Header";
 import Datepicker from "./Datepicker";
 import FormikInput from "./FormikInput";
+import SmartImage from './SmartImage';
 
 export {
-	FastImage,
 	AppLoader,
 	InputBlock,
 	Header,
 	DropDown,
 	Datepicker,
-	FormikInput
+	FormikInput,
+	SmartImage
 };
