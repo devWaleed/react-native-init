@@ -24,7 +24,7 @@ function AppIntro(props) {
 				A simple react native project with only essential things that are required to build a great app
 			</Text>
 
-			<DropdownPopup
+			{/* <DropdownPopup
 				items={[1, 2, 3, 4, 5, 6, 7, 8, 9]}
 				renderItem={({ item, index }) => {
 					return (
@@ -40,7 +40,7 @@ function AppIntro(props) {
 				}}
 				show={openPopup}
 				keyExtractor={(item) => item.toString()}
-			/>
+			/> */}
 		</View>
 	);
 }
